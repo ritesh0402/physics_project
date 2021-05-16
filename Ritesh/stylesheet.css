@@ -58,7 +58,7 @@
 
 .ul > li > a {
     padding: 10px 20px 10px 20px ;
-    border-radius: 5px;
+    border-radius: 8px;
     color: white;
     font-size: large;
     text-decoration: none ;
@@ -76,7 +76,7 @@
     position: absolute;
     top: 60px;
     width: 100%;
-    height: 3000px;
+    height: 2700px;
     background-color: teal;
 }
 
@@ -93,7 +93,7 @@
     position: absolute;
     top: 595px;
     width: 100%;
-    height: 900px;
+    height: 850px;
     background-color: orange;
     flex-wrap: wrap;
 }
@@ -106,6 +106,9 @@
     justify-content: center;
 }
 
+.row2{
+    margin-top: -50px;
+}
 
 .cards {
     margin: 0px 10px;
@@ -117,8 +120,8 @@
 
 #news {
     position: absolute;
-    top: 1495px;
-    height: 500px;
+    top: 1445px;
+    height: 400px;
     width: 100%;
     background-color: blue;
     display: flex;
@@ -127,19 +130,36 @@
 .newsheading {
     color: black;
     font-size: 50px;
+    align-items: center;
+    display: flex;
     float: left;
+    height: 100px;
+    width: 350px;
+    justify-content: center;
 }
 
 .newspara {
+    position: absolute;
+    right: 10%;
+    border-radius: 10px;
     background-color: white;
-    height: 400px;
-    width: 600px;
+    height: 300px;
+    width: 60%;
     align-self: center;
+}
+
+.newspara > p {
+    margin: 20px 30px;
+}
+
+.newspara > ul {
+    position: absolute;
+    left: 0px; top: 10px;
 }
 
 #aboutus {
     position: absolute;
-    top: 1995px;
+    top: 1845px;
     height: 400px;
     width: 100%;
     display: flex;
@@ -148,15 +168,26 @@
 
 .aboutusheading {
     display: flex;
+    align-items: center;
+    height: 100px;
+    width: 242px;
     font-size: 50px;
+    justify-content: center;
 }
 
 .aboutuspara {
+    position: absolute;
+    right: 10%;
     display: flex;
+    border-radius: 10px;
     background-color: white;
-    height: 350px;
-    width: 600px;
+    height: 300px;
+    width: 60%;
     align-self: center;
+}
+
+.aboutuspara > p {
+    margin: 10px 20px 10px 20px;
 }
 
 /* ___________________________________________________________________________________________________________________ */
@@ -166,10 +197,12 @@
 #footer {
     background-color: thistle;
     position: absolute;
-    top: 2455px;
+    top: 2305px;
     height: 400px;
     width: 100%;
 }
+
+
 
 
 
