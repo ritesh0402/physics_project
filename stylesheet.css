@@ -90,6 +90,36 @@
     background-color: lightcoral;
 }
 
+.donations {
+    position: absolute; top: 450px;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.322);
+    display: flex;
+}
+
+.pmcares {
+    position: absolute; left: 50%;
+    margin-left: -300px;
+    height: 100%;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.ndmafund {
+    position: absolute; left: 50%;
+    margin-left: 100px;
+    height: 100%;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+}
+
 #services {
     padding: 0px;
     position: absolute;
@@ -117,28 +147,32 @@
     justify-content: center;
 }
 
+.cards:hover {
+    cursor: pointer;
+}
+
 .card1 {
-    background-image: url(/img/covishield.jpg);
+    background-image: url(img/covishield.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card2 {
-    background-image: url(/img/ndrf.jpg);
+    background-image: url(img/ndrf.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 
 .card3 {
-    background-image: url(/img/medicalequipment2.jpg);
+    background-image: url(img/medicalequipment2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 
 .card4{
-    background-image: url(/img/volunteer.jpg);
+    background-image: url(img/volunteer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
