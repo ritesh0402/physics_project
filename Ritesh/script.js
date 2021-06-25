@@ -11,11 +11,11 @@ burger.addEventListener("click", ()=>{
 })
 
 card1.addEventListener("click", ()=>{
-    window.location.href = 'https://www.amazon.in/';
+    window.location.href = 'https://www.cowin.gov.in/home';
 })
 
 card2.addEventListener("click", ()=>{
-    window.location.href = 'https://www.amazon.in/';
+    window.location.href = 'https://ndma.gov.in/';
 })
 
 card3.addEventListener("click", ()=>{

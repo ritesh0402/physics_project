@@ -756,8 +756,22 @@
         color: white;
         transition: 0.3s;
     }
+
+    .newspara {
+        font-size: medium;
+    }
+
+    .aboutuspara {
+        font-size: medium;
+    }
 }
 
 @media only screen and (max-width: 700px) {
-    
+    .newspara {
+        font-size: small;
+    }
+
+    .aboutuspara {
+        font-size: small;
+    }
 }
