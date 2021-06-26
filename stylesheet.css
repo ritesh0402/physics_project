@@ -3,7 +3,27 @@
     font-family: 'Poppins', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+}
+/* ::-webkit-scrollbar-button:single-button {
+    background-color: rgba(27, 27, 27, 0.658);
+    height: 16px;
+    width: 16px;
+} */
 
+::-webkit-scrollbar-thumb {
+    background: rgb(56, 56, 56);
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(50, 207, 255);
+}
+
+::-webkit-scrollbar-corner{
+    background: rgb(116, 199, 255) ;
+    display: solid;
+}
 
 
 
