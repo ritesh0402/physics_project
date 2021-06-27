@@ -247,7 +247,8 @@
 }
 
 .cards:hover {
-    transition: 0.5s;
+    transition: 0.2s;
+    box-shadow: 12px 12px 2px 1px rgba(63, 63, 63, 0.5);
 }
 
 
