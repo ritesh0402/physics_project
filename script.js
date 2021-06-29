@@ -23,5 +23,5 @@ card3.addEventListener("click", ()=>{
 })
 
 card4.addEventListener("click", ()=>{
-    window.location.href = 'https://www.amazon.in/';
+    window.location.href = 'SubPages/voluntary_help_page.html';
 })
