@@ -19,7 +19,7 @@ card2.addEventListener("click", ()=>{
 })
 
 card3.addEventListener("click", ()=>{
-    window.location.href = 'https://www.amazon.in/';
+    window.location.href = 'SubPages/Smit.html';
 })
 
 card4.addEventListener("click", ()=>{
